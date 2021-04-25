@@ -1,0 +1,12 @@
+
+
+.logoDoc{
+    width: 240px;
+}
+
+Nav .active{
+    color: #00b39b !important;
+}
+Nav .linkNav:hover{
+    color: #00b39b !important;
+}

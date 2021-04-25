@@ -1,0 +1,22 @@
+.cardPatient{
+    background-color: #00ccB1;
+    border-radius: 15px;
+}
+.cardDoc{
+    background-color: #3d83df;
+    border-radius: 12px;
+}
+.cardClic{
+    background-color: #1b2734;
+    border-radius: 12px;
+}
+.cardIcon{
+    width: 60px;
+}
+.selectCateg{
+    border: 0  !important; 
+    text-decoration: underline;
+    background: transparent;
+    cursor: pointer;
+    outline: 0;    
+}
