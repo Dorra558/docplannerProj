@@ -4,8 +4,8 @@ import {Navbar,Nav} from 'react-bootstrap'
 
 function NavigationBar(){
   return(
-    <div>
-        <Navbar expand="lg" fixed-top> 
+    <div className="pb-5">
+        <Navbar expand="lg" fixed="top" > 
         <div className="container">
         <Navbar.Brand href="#home"><img src="/imgs/logo.svg" className="logoDoc"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

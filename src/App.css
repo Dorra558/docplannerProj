@@ -1,4 +1,4 @@
-h1{
+h1, h4{
     color: #00b39b;
     font-family: 'Work Sans', sans-serif;
 }  
@@ -15,4 +15,16 @@ h1{
 }
 .tailleIconTuo{
     width: 7rem;
+}
+
+/* *********section 4**************** */
+.section4{
+    background-color: #c7f1f3;
+}
+.logoPng{
+    content: "";
+    top: 45%;
+    width: 456px;
+    height: 435px;
+    pointer-events: none;
 }
