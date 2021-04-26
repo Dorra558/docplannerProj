@@ -2,13 +2,25 @@
     background-color: #00ccB1;
     border-radius: 15px;
 }
+.cardPatient:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 .cardDoc{
     background-color: #3d83df;
     border-radius: 12px;
 }
+.cardDoc:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 .cardClic{
     background-color: #1b2734;
     border-radius: 12px;
+}
+.cardClic:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 .cardIcon{
     width: 60px;

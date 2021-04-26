@@ -7,7 +7,7 @@ function CardSection() {
     <div>
       <Container>
         <Row className="text-white">
-          <Col>
+          <Col md={4}>
             <Card className="cardPatient  mb-3">
               <Card.Img variant="top" className="cardIcon pt-3 pl-4" src="imgs/icon-patients.svg" />
               <Card.Body>
@@ -34,7 +34,7 @@ function CardSection() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={4}>
             <Card className="cardDoc mb-3">
               <Card.Img variant="top" src="imgs/icon-doctors.svg" className="cardIcon pt-3 pl-4" />
               <Card.Body>
@@ -61,7 +61,7 @@ function CardSection() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={4}>
             <Card className="cardClic">
               <Card.Img variant="top" src="imgs/icon-clinics.svg" className="cardIcon pt-3 pl-4" />
               <Card.Body>

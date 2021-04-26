@@ -7,7 +7,7 @@ function Country() {
     <div>
         <Container>
             <Row>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                        <img src="imgs/warsaw.png"/>
                         <Card.Body className="d-flex justify-content-around">
@@ -16,7 +16,7 @@ function Country() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                     <img src="imgs/barcelona.png"/>
                         <Card.Body className="d-flex justify-content-around">
@@ -25,7 +25,7 @@ function Country() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                     <img src="imgs/istanbul.png"/> 
                         <Card.Body className="d-flex justify-content-around">
@@ -34,7 +34,7 @@ function Country() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                     <img src="imgs/rome.png"/> 
                         <Card.Body className="d-flex justify-content-around">
@@ -43,7 +43,7 @@ function Country() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                     <img src="imgs/bologna.png"/> 
                         <Card.Body className="d-flex justify-content-around">
@@ -52,7 +52,7 @@ function Country() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Card className="mb-4 cardCount">
                     <img src="imgs/curitiba.png"/> 
                         <Card.Body className="d-flex justify-content-around">

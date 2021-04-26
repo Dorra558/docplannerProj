@@ -4,6 +4,7 @@ import NavigationBar from './components/navbar';
 import CardSection from './components/cards';
 import CardsDoc from './components/cards2'
 import Country from './components/countries'
+import Footer from './components/footer'
 import {Container, Row, Col, Button} from 'react-bootstrap';
 
 
@@ -88,17 +89,17 @@ function App() {
       </Container>
    </div>
 {/* ***************section 4*************************** */}
-      <div className="py-5 section4">
+      <div className="pt-5 section4">
         <Container>
           <Row>
-            <Col>
-                <h1 className="text-center pb-3">The world's biggest healthcare platform</h1>
+            <Col md={6}>
+                <h1 className="text-center pb-4">The world's biggest healthcare platform</h1>
                 <small className="d-flex justify-content-center mx-5">We work from 7 offices all over the world, bringing Docplanner Group to life in a dozen countries.</small>
-                 {/* <div className="">
-                    <img src="imgs/sygnet.png" className="logoPng"/>
-                 </div> */}
+                 <div className="">
+                    <img src="imgs/Logopng.png" className="logoPng "/>
+                 </div>
             </Col>
-            <Col>
+            <Col md={6}>
               <CardsDoc/>
             </Col>
           </Row>
@@ -128,7 +129,7 @@ function App() {
             <Col>
               <h2 className="text-center">Sounds interesting? Join us now!</h2>
               <Col md={{ span: 4, offset: 4 }}>
-                <Button className="text-uppercase mt-2"  variant="primary"> see all current aopenings</Button>
+                <Button className="buton text-uppercase mt-2"  variant="primary"> see all current aopenings</Button>
               </Col>
             </Col>
           </Row>
@@ -136,6 +137,10 @@ function App() {
       </div>
 
  {/* *******Component footer*************** */}
+      <div>
+          <Footer/>
+      </div>
+
   </div>
 
 
